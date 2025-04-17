@@ -1,0 +1,108 @@
+/* need to check colors not in wrong order and need to make 1st cell large and need to change lower 
+cells only 2 i/o 4*/
+
+.header-style {
+    text-align: center;
+    font-size: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    font-weight:700;
+}   
+
+.grid-container {
+    font-family:Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px;
+    justify-content: center;
+    color: white;
+}
+
+.grid-container-first-row {
+    grid-template-columns: 100%;
+}
+
+.grid-container div {
+    padding: 5px;
+    font-weight:700;
+}
+
+.div1 {
+    background-color: rgb(40, 38, 38);
+}
+
+.div2 {
+    background-color: gray;
+}
+
+.div3 {
+    background-color: rgb(179, 78, 41)
+}
+
+.div4 {
+    background-color: rgb(11, 90, 11)
+}
+
+.div5 {
+    background-color: rgb(26, 94, 87);
+}
+
+.div6 {
+    background-color: rgb(146, 10, 10);
+}
+
+.div7 {
+   background-color: rgb(193, 146, 17);
+}
+
+.div8 {
+    background-color: rgb(5, 39, 5);
+}
+
+.div9 {
+    background-color: rgb(51, 51, 186);
+}
+
+.div10 {
+    background-color: rgb(233, 83, 28);
+}
+
+.div11 {
+    background-color: rgb(34, 76, 34);
+}
+
+.div12 {
+    background-color: rgb(20, 58, 84);
+}
+
+.div13 {
+    background-color: rgb(128, 15, 128);
+}
+
+.div14 {
+    background-color: rgb(168, 60, 78);
+}
+ 
+.div15 {
+    background-color: rgb(171, 41, 63);
+}
+
+.div16 {
+    background-color: rgb(16, 18, 70)
+}
+
+.div17 {
+    background-color: purple; 
+}
+
+.div18 {
+    background-color: violet;
+}
+
+.div19 {
+    background-color: indigo;
+}
+
+.div20 {
+    background-color: rgb(27, 27, 92);
+}
+
