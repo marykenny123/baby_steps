@@ -1,0 +1,42 @@
+.grid-container {
+    
+    display: grid;display: grid;
+    grid-template-columns: repeat(6, 50px); 
+    grid-template-rows: repeat(6, 50px);  
+    gap: 10px; 
+    border-width: 20px;
+    border-color: solid black;
+    padding:solid   black;
+    grid-gap: 0px;
+}
+
+#first {
+    background-color: rgb(149, 149, 238);
+}
+#second {
+    background-color:rgb(162, 125, 186);
+}
+#third {
+    background-color: rgb(104, 61, 104);
+}
+#fourth {
+    background-color: rgb(88, 52, 74);
+}
+#fifth {
+    background-color: rgb(79, 24, 51);
+}
+#sixth {
+    background-color: rgb(230, 126, 170);
+}
+
+ /* !!!! NOTA PARA CORRECCIONES: SOLAMENTE HE PUESTO COLORES PARA LA PRIMERA FILA YA QUE SÉ QUE TIENE QUE HABER OTRA MANERA QUE YO NO SÉ HACERLO APLICANDO ESCALA O ALGO YNO MANUAL UNO POR UNO, LOS COLORES TAMPOCO ESTÁN EXACTOS
+   */
+
+
+.grid-item {
+    background-color: white; /* Color de fondo por defecto */
+    border: 10px solid rgba(5, 5, 26, 0.881);  /*Borde de 1px, sólido, negro */
+    border-radius:6%;
+    }
+
+  

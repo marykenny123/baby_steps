@@ -22,8 +22,6 @@
   margin-left: 24px ;
   font-weight:900;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  
-
 }
 
  
@@ -31,12 +29,14 @@
   vertical-align: top;
   margin-left: 20px;
   float:left;
-  size-adjust: ;
+  size-adjust: 
   }
-  */
+
 
 .lorem-text {
-
-margin-right: 50%;  
-
+margin-right: 15%;  
+margin-left: 3%;
+padding-right: 30%;
+padding top: 5%;
+ 
 }
